@@ -208,5 +208,11 @@
     "source": "07-collection-two/Patchwork Jacket Prototype Sketch.png",
     "kind": "AI-assisted concept visualisation",
     "credit": "Creator credit to confirm"
+  },
+  {
+    "file": "herd-cutout.png",
+    "source": "herd-portrait.webp",
+    "kind": "AI-assisted background extraction",
+    "credit": "Original photographer credit to confirm; foreground extraction for website hero"
   }
 ]

@@ -1,8 +1,8 @@
 # ROHENI Studio
 
-A working creative portfolio for ROHENI’s first collection and upcoming work. Designed around the original ROHENI logo, Instrument Serif headings, Manrope text, warm off-white, charcoal and deep red.
+A working creative portfolio for ROHENI’s first collection and upcoming work. Expressive red edition: #7A0000, cream typography, layered campaign collage, Fraunces and Archivo free font alternatives, and the original ROHENI logo.
 
-**Status:** updated version with selected images from the uploaded asset folder and a visual development gallery for Collection II. This repository has not been pushed to GitHub or publicly deployed.
+**Status:** updated version with selected images from the uploaded asset folder and a visual development gallery for Collection II. This update is prepared for the existing ritagathoni/roheni-studio repository; it has not been published. See docs/REDESIGN.md.
 
 ## What is included
 
@@ -82,7 +82,7 @@ The current site does not contain a final downloadable Swarovski portfolio PDF. 
 
 ## Verification completed
 
-- Static check passes for eight HTML entry files, four project records and local references.
+- Static check passes for nine HTML entry files, four project records and local references.
 - JavaScript syntax checked with Node.
 - Homepage visually inspected in the desktop browser.
 - Navigation to Kaleidoscope verified.
