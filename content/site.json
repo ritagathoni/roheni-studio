@@ -1,0 +1,268 @@
+{
+  "brand": {
+    "name": "ROHENI Studio",
+    "email": "ritaroheni@gmail.com",
+    "instagram": "https://www.instagram.com/rohenistudio/",
+    "location": "Nairobi, Kenya"
+  },
+  "projects": [
+    {
+      "id": "kaleidoscope",
+      "title": "Kaleidoscope",
+      "subtitle": "Different lives. A new composition.",
+      "category": "Denim jackets",
+      "stage": "Collection I",
+      "year": "2024–2025",
+      "image": "denim-campaign",
+      "alt": "Models wearing contrasting patchwork denim jackets from the supplied ROHENI portfolio",
+      "intro": "Denim remembers. Its faded blues, worn seams and softened surfaces carry traces of the people who wore it before. Kaleidoscope brings those differences into a new composition.",
+      "sections": [
+        {
+          "title": "A material with a past",
+          "text": "We work with discarded denim and factory offcuts, looking closely at their colour, texture and remaining potential. Each piece of material changes the possibilities of the garment."
+        },
+        {
+          "title": "Working through contrast",
+          "text": "Patch placement, proportion and silhouette give the fragments a relationship. The original material stays visible, becoming part of what makes the finished jacket individual."
+        },
+        {
+          "title": "What comes next",
+          "text": "The next collection explores curved panels, irregular pockets and more precise fit. Sampling helps us understand where an expressive design also needs a clearer construction brief."
+        }
+      ],
+      "gallery": [
+        {
+          "image": "denim-detail",
+          "caption": "Contrasting washes and panel placement, seen from the back."
+        },
+        {
+          "image": "denim-front",
+          "caption": "A front view of a Kaleidoscope jacket."
+        },
+        {
+          "image": "denim-back",
+          "caption": "A different arrangement of colour across the back."
+        },
+        {
+          "image": "denim-red",
+          "caption": "Red, pale denim and darker panels in a finished piece."
+        },
+        {
+          "image": "process-sketch",
+          "caption": "A design drawing supplied in the studio’s process archive."
+        },
+        {
+          "image": "process-panels",
+          "caption": "Denim panels arranged during making."
+        }
+      ]
+    },
+    {
+      "id": "the-herd",
+      "title": "The Herd",
+      "subtitle": "A shared identity. An individual presence.",
+      "category": "Cowhide and leather",
+      "stage": "Collection I",
+      "year": "2024–2025",
+      "image": "herd-campaign",
+      "alt": "ROHENI cowhide and leather jackets shown on models",
+      "intro": "The Herd begins with the physical presence of cowhide and leather. Markings, texture and variation guide how a piece takes shape. Each jacket belongs to the same world, while carrying its own character.",
+      "sections": [
+        {
+          "title": "Following the material",
+          "text": "Working with irregular markings means making decisions about where a surface belongs and how it changes the balance of a garment. The material becomes part of the design process."
+        },
+        {
+          "title": "Clothing with presence",
+          "text": "These are pieces for people who want to express themselves through what they wear. Construction and proportion give their strong textures a wearable form."
+        },
+        {
+          "title": "Sourcing with care",
+          "text": "ROHENI sources factory cutoffs and waste materials. The source of each featured hide and leather panel should be recorded individually as our material documentation develops."
+        }
+      ],
+      "gallery": [
+        {
+          "image": "herd-brown",
+          "caption": "A brown leather and cowhide jacket, worn."
+        },
+        {
+          "image": "herd-detail",
+          "caption": "Texture, markings and construction in a finished piece."
+        },
+        {
+          "image": "herd-portrait",
+          "caption": "The black and white Herd jacket in the campaign."
+        },
+        {
+          "image": "herd-back",
+          "caption": "A back view showing the leather construction."
+        },
+        {
+          "image": "herd-side",
+          "caption": "The jacket seen in profile."
+        },
+        {
+          "image": "process-making",
+          "caption": "Making in progress, from the studio’s supplied archive."
+        }
+      ]
+    },
+    {
+      "id": "adwoa",
+      "title": "Adwoa",
+      "subtitle": "A set with a presence of its own.",
+      "category": "Women’s sets",
+      "stage": "Collection I",
+      "year": "2024–2025",
+      "image": "women-set",
+      "alt": "A model wearing the Adwoa top and skirt set from ROHENI’s first collection",
+      "intro": "Adwoa brings another expression to the first collection through a coordinated top and skirt. Cutouts, contrasting surfaces and the relationship between the pieces shape the look.",
+      "sections": [
+        {
+          "title": "Two pieces, one conversation",
+          "text": "A set lets us explore how a top and skirt work together through shape, proportion and styling. Each piece also gives the wearer room to make the look their own."
+        },
+        {
+          "title": "A wider expression",
+          "text": "The women’s sets broaden the ROHENI world beyond its signature jackets, keeping individuality and African creativity at the centre."
+        }
+      ],
+      "gallery": [
+        {
+          "image": "women-set",
+          "caption": "Adwoa, shown as a coordinated look from the first collection."
+        },
+        {
+          "image": "women-set-alt",
+          "caption": "A second view of the top and skirt, with their proportions visible."
+        }
+      ]
+    },
+    {
+      "id": "accessories",
+      "title": "Smaller stories",
+      "subtitle": "Material character, made to carry.",
+      "category": "Bags and accessories",
+      "stage": "Collection I",
+      "year": "2024–2025",
+      "image": "bag",
+      "alt": "A cowhide bag from ROHENI’s supplied accessory images",
+      "intro": "Bags and accessories extend the collection’s material language into everyday objects. Their scale opens further possibilities for working with smaller pieces and remnants.",
+      "sections": [
+        {
+          "title": "Looking at what remains",
+          "text": "A smaller piece can invite another idea. We explore how remnants and contrasting surfaces can become useful objects with the same character as the clothing."
+        },
+        {
+          "title": "A tangible connection",
+          "text": "For local customers and visitors discovering Kenyan creativity, an accessory offers a way to carry the work into everyday life. Material sources and maker credits will be documented individually."
+        }
+      ],
+      "gallery": [
+        {
+          "image": "bag",
+          "caption": "Cowhide texture shaped into a carry bag."
+        },
+        {
+          "image": "bag-black",
+          "caption": "A contrasting black and white bag."
+        },
+        {
+          "image": "clutch",
+          "caption": "A smaller accessory with visible material markings."
+        },
+        {
+          "image": "bag-small",
+          "caption": "A compact bag with cowhide panels and fastening details."
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "title": "KSh500k+",
+      "detail": "Cumulative sales after one debut collection."
+    },
+    {
+      "title": "United Nations",
+      "detail": "Recognition during zero-waste activities in 2025."
+    },
+    {
+      "title": "Tony Elumelu Foundation",
+      "detail": "Early grant support for the business."
+    },
+    {
+      "title": "Fairmont & BAF",
+      "detail": "Hotel collaborations and visibility on Building Africa Fashion."
+    }
+  ],
+  "development": [
+    {
+      "image": "concept-denim",
+      "type": "Digital concept",
+      "caption": "Patchwork denim silhouette and colour exploration. AI-assisted visualisation; not a finished garment."
+    },
+    {
+      "image": "concept-denim-study",
+      "type": "Design study",
+      "caption": "Sketch-style exploration of panel arrangements. AI-assisted design study, not a hand-drawn original."
+    },
+    {
+      "image": "concept-herd-front",
+      "type": "Digital concept",
+      "caption": "Cowhide jacket front view. AI-assisted visualisation; garment not yet produced."
+    },
+    {
+      "image": "concept-herd-back",
+      "type": "Digital concept",
+      "caption": "Cowhide jacket back view. AI-assisted visualisation; garment not yet produced."
+    },
+    {
+      "image": "concept-herd-study",
+      "type": "Design study",
+      "caption": "Three-view cowhide jacket study. AI-assisted design study."
+    },
+    {
+      "image": "concept-herd-female",
+      "type": "Digital concept",
+      "caption": "Proportion study shown on a female model. AI-assisted visualisation."
+    },
+    {
+      "image": "concept-herd-female-back",
+      "type": "Digital concept",
+      "caption": "Back view of the same proposed direction. AI-assisted visualisation."
+    },
+    {
+      "image": "concept-atir",
+      "type": "Digital concept",
+      "caption": "Atir set direction supplied with Collection II. AI-assisted concept; final construction remains in development."
+    }
+  ],
+  "process": [
+    {
+      "image": "material-pile",
+      "caption": "Recovered and discarded clothing, from the studio’s supplied material archive."
+    },
+    {
+      "image": "material-hide",
+      "caption": "Hide and leather materials in the sourcing archive."
+    },
+    {
+      "image": "process-sketch",
+      "caption": "A design drawing used to communicate the intended jacket."
+    },
+    {
+      "image": "process-panels",
+      "caption": "Panels laid out during the making process."
+    },
+    {
+      "image": "process-making",
+      "caption": "Working through material and construction with makers."
+    },
+    {
+      "image": "process-stitching",
+      "caption": "A closer view of stitching and construction in progress."
+    }
+  ]
+}
