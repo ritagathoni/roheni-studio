@@ -1,12 +1,14 @@
 # ROHENI Studio
 
-A working creative portfolio for ROHENI’s first collection and upcoming work. Expressive red edition: #7A0000, cream typography, layered campaign collage, Fraunces and Archivo free font alternatives, and the original ROHENI logo.
+A creative portfolio for ROHENI’s first collection and upcoming work. The paper edition pairs grey photo mounts and the original logo with a consistent three-font system: Fraunces, Plus Jakarta Sans and League Gothic.
 
-**Status:** updated version with selected images from the uploaded asset folder and a visual development gallery for Collection II. This update is prepared for the existing ritagathoni/roheni-studio repository; it has not been published. See docs/REDESIGN.md.
+**Status:** prepared update for the existing `ritagathoni/roheni-studio` repository. This local revision has not been uploaded or deployed. See `docs/DESIGN_SYSTEM.md` and `docs/RESEARCH_AND_ASSETS.md` for current design decisions, credits and verification limits.
 
 ## What is included
 
-- Homepage with campaign image, studio story, selected work, process, development and milestones.
+- Paper-default homepage with campaign collage, childhood founder globe, mission, inspiration, development and milestones.
+- Dedicated Gikomba mission page and an interactive inspiration board with drag, keyboard, shuffle and reset controls.
+- Nine-second material motion study, native video controls and reduced-motion support.
 - Collections index and four project case studies.
 - Studio page introducing Rita and the brand’s purpose, plus a dedicated making-process page.
 - Collection II development journal with filterable digital concepts and design studies.
@@ -52,12 +54,14 @@ Alternative: choose **Deploy from a branch → main → /(root)**. If you choose
 | `collections.html` | Collection index |
 | `project.html?id=kaleidoscope` | Shared project template; URL chooses the project |
 | `studio.html` | Founder and brand story |
+| `mission.html` | Gikomba and material recovery mission |
+| `inspiration.html` | Interactive visual research board and material film |
 | `journal.html` | Collection II in development |
 | `process.html` | Materials, drawings and making |
 | `contact.html` | Direct contact links |
 | `404.html` | Missing-page fallback |
 | `content/site.json` | Brand contact details, project content and milestone records |
-| `assets/css/styles.css` | Visual system and responsive layouts |
+| `assets/css/styles.css` and `assets/css/premium.css` | Layout base and final paper-edition design |
 | `assets/js/app.js` | Page rendering, navigation, lightbox and homepage/studio/journal copy |
 | `assets/images/` | Public, optimised website images |
 | `scripts/check_site.py` | Reference and content validation |
@@ -69,7 +73,7 @@ Alternative: choose **Deploy from a branch → main → /(root)**. If you choose
 - **Project text and gallery captions:** edit `content/site.json`.
 - **Email / Instagram:** edit `brand` in `content/site.json`.
 - **Homepage, studio and journal narrative:** edit the named rendering functions in `assets/js/app.js`.
-- **Colours, fonts, spacing:** edit `:root` and relevant rules in `assets/css/styles.css`.
+- **Colours, fonts, spacing:** edit the final variables and rules in `assets/css/premium.css`.
 - **Images:** replace corresponding `.webp` files without changing filenames, or update the image references.
 - **New project:** duplicate one project record in `content/site.json`, give it a unique ID and add the referenced images. The collection grid updates automatically.
 - **Browser titles and descriptions:** edit each HTML file. Project browser titles are set dynamically.
@@ -82,7 +86,7 @@ The current site does not contain a final downloadable Swarovski portfolio PDF. 
 
 ## Verification completed
 
-- Static check passes for nine HTML entry files, four project records and local references.
+- Static check passes for 11 HTML entry files, four project records and local references.
 - JavaScript syntax checked with Node.
 - Homepage visually inspected in the desktop browser.
 - Navigation to Kaleidoscope verified.

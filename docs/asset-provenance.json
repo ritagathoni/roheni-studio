@@ -220,5 +220,29 @@
     "source": "User-selected image-edit-target-4abf6568c975283a.png banner screenshot",
     "kind": "AI-edited decorative charcoal texture; live text supplied in HTML",
     "credit": "Created for ROHENI portfolio"
+  },
+  {
+    "file": "founder-child-cutout.png",
+    "source": "Supplied childhood photo image(20261029-151103).png",
+    "kind": "AI-assisted background extraction",
+    "credit": "Supplied by studio; original photographer credit to confirm"
+  },
+  {
+    "file": "board-hide.png",
+    "source": "Supplied image(20261029-151035).png",
+    "kind": "AI-enhanced material reference",
+    "credit": "Original source credit to confirm"
+  },
+  {
+    "file": "lummi-fabric.jpg",
+    "source": "https://www.lummi.ai/photo/textured-fabric-close-up-bzld5",
+    "kind": "AI-generated third-party inspiration",
+    "credit": "Amino / Lummi"
+  },
+  {
+    "file": "lummi-denim.jpg",
+    "source": "https://www.lummi.ai/photo/stylish-denim-portrait-xbnzs",
+    "kind": "AI-generated third-party inspiration",
+    "credit": "Deep Patel / Lummi"
   }
 ]

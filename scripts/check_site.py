@@ -2,7 +2,7 @@
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlsplit, unquote
-import json, sys
+import json, sys, re
 ROOT = Path(__file__).resolve().parents[1]
 errors=[]
 class PageParser(HTMLParser):
@@ -26,7 +26,10 @@ for group in ('development','process'):
  for image in data.get(group,[]):
   if not (ROOT/f'assets/images/{image["image"]}.webp').is_file():errors.append(f'Missing {group} image: {image["image"]}')
 if len(ids)!=len(set(ids)):errors.append('Duplicate project IDs')
-for page in ('index','collections','studio','journal','project','contact','process'):
+for page in ('index','collections','studio','journal','project','contact','process','about','inspiration','mission'):
  if not (ROOT/f'{page}.html').is_file():errors.append(f'Missing route: {page}')
+for name in re.findall(r"['\"]([A-Za-z0-9_-]+\.(?:png|jpg|webp))['\"]",(ROOT/'assets/js/app.js').read_text()):
+ if not (ROOT/'assets/images'/name).is_file():errors.append(f'Missing interface image: {name}')
+if not (ROOT/'assets/video/material-study.mp4').is_file():errors.append('Missing material motion film')
 if errors:print('\n'.join(errors));sys.exit(1)
 print(f'PASS: {len(list(ROOT.glob("*.html")))} pages, {len(ids)} projects, local file references and content checked.')

@@ -1,42 +1,30 @@
-# Design system
+# ROHENI — paper edition
 
-## Direction
+## Three typefaces
 
-An editorial portfolio with generous spacing, expressive photography and a quiet interface. The original ROHENI logo remains the signature. Typography frames the work rather than imitating the logo.
+- **Fraunces**: editorial headlines, italic emphasis and collection introductions. Weights 400/500/600; use its shapes rather than adding further display fonts.
+- **Plus Jakarta Sans**: navigation, body copy, captions, controls and contact information. Weights 400/500/600/700.
+- **League Gothic**: compact material labels, the circular badge, cultural-reference cards and marquee.
 
-The reference site informed the desired sense of an unfolding portfolio. Its full visual behaviour could not be verified in the research browser, so this implementation is not a pixel-for-pixel reproduction.
-
-## Type
-
-- Instrument Serif Regular and Italic: headlines, collection names and short editorial statements.
-- Manrope Regular: descriptions and long-form reading.
-- Manrope Medium: navigation, captions and small section labels.
-- Body text: 15px default with a 1.7 line height.
-- Headlines: responsive sizes using `clamp()`.
-- Avoid oversized decorative type beside the logo, dense uppercase paragraphs and excessively light text.
-
-Google Fonts loads the families. For offline or locally hosted fonts, download the official families, retain their licence files, place WOFF2 assets under `assets/fonts/`, add `@font-face` with `font-display: swap`, and remove the external font links. Do not bundle commercial fonts without a licence.
+All three are available under SIL Open Font Licences and are requested through Google Fonts. No commercial demo font is embedded. The original ROHENI logo is an image asset, separate from the type system. Font loading is declared in each HTML entry page. `premium.css` defines the final family variables; `styles.css` retains the earlier layout base.
 
 ## Colour
 
-| Token | Value | Use |
-| --- | --- | --- |
-| Paper | `#f5f2ec` | Warm editorial background |
-| Ink | `#2e2e2e` | Main text |
-| ROHENI red | `#7a0000` | Emphasis, selection and process section |
-| Line | `#cfc9bf` | Quiet separators |
-| Quiet | `#645c53` | Secondary text |
+Paper is the initial theme, including for visitors who used an earlier red-default version. Paper #F1F0ED, ink #292929, mission panel #E5E4E0, photo mount #D4D4D1, red accent #7A0000. Red and charcoal #2E2E2E remain visitor choices. Mounts remain grey. Theme preference is stored only in localStorage under roheni-theme-v3.
 
-The logo artwork is unchanged. Its transparent black version is used on the light background. The selected warm paper is a site surface; the original white brand colour remains valid for other applications.
+## Composition
 
-## Layout
+The collage hero preserves readable lettering and links to real project galleries. Header links have irregular outlines with consistent typography. The mission and inspiration previews lead into dedicated pages. The founder globe is a decorative full sphere/map motif, not precise cartography. The gently bent logo is rendered from the original PNG with column sampling on a retina canvas; it is not retyped or generated. The childhood image has an AI-assisted background extraction. The original supplied photo remains outside the public site.
 
-Desktop: split opening, alternating four-project collection grid, alternating narrative and visual sections. Mobile: stacked layout, expanded navigation and full-width projects. Adwoa women’s sets and accessories now have separate case studies.
+## Motion & interaction
 
-## Accessibility
+CSS marquee and floating control; one-time heading entrances; subtle hover movement. Pause/Resume and prefers-reduced-motion support. The inspiration board supports mouse dragging, arrow keys, shuffle and reset. Touch users can scroll normally and use the shuffle/reset controls. The video is a nine-second silent MP4 motion study created from still textures. It plays when visible where the browser permits and pauses out of view; native controls allow manual playback. User pause is respected. It is labelled as animated stills.
 
-Skip link, semantic navigation, one main heading per page, labelled image buttons, native dialog, visible focus, Escape dismissal, focus restoration and reduced-motion support are included. Informative images carry alt text. Links remain readable without animation. No autoplay or custom cursor is used.
+## Editing
 
-## Image treatment
+`assets/js/app.js`: homepage, mission, inspiration, interactive behaviour and logo drawing.
+`assets/css/premium.css`: final design decisions and responsive styling.
+`content/site.json`: collections and galleries, contacts, milestones, development archive.
+`assets/video/material-study.mp4`: finished motion study.
 
-Opening imagery can crop for composition; project openings use `object-fit: contain` so full garments remain available. Galleries also contain the image and provide an enlarged view. Check new images individually instead of assuming one crop fits every garment.
+The website is static. No account, data-collection form or paid app is required.
