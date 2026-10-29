@@ -13,3 +13,14 @@ Textbehindimage.com was tested with the same portrait; its downloaded output omi
 
 ## Upload this update
 Extract the ZIP. Upload the contents of roheni-studio to the root of ritagathoni/roheni-studio, replacing files with matching names. Include about.html and assets/images/herd-cutout.png. Commit to main. If GitHub Pages is configured from main/root it will rebuild automatically. The website uses relative paths.
+
+## Playground refinement
+Barriecito (SIL Open Font License, discovered through Free Faces) now accents navigation, collection links and the badge. Fraunces remains the editorial headline and narrative face. Uncut.wtf Redaction was researched as an alternative; its files are not bundled. Sources: https://www.freefaces.gallery/typefaces/barriecito and https://uncut.wtf/serif/redaction/.
+
+Theme buttons select Red #7A0000, Paper #FEFEFE or Charcoal #2E2E2E; the choice persists locally in the visitor’s browser without an account or tracking. The marquee remains charcoal in every theme. Its lettering animates in CSS; a global Pause/Resume control and prefers-reduced-motion support are included. The flying play-shaped control pauses/resumes decorative motion: it does not claim to open a video. No video was supplied.
+
+Founder introduction uses live curved SVG lettering, a decorative stylised hemisphere/map motif, and Rita’s original portrait. It is not a precise cartographic diagram. No AMOUR reference image was present among the three supplied screenshots, so the curve was interpreted from the written brief. The female cowhide digital concept is now the Collection II lead and remains explicitly labelled AI-assisted.
+
+The supplied exact marquee screenshot was edited with the built-in image tool to create studio-banner-texture.png: charcoal, no lettering, sparse chalk stitch and panel sketches at the edges. HTML supplies the actual animated text. Generated decorative texture is not evidence of a made garment.
+
+Validation: Python local reference checker and JavaScript syntax pass. Desktop themes and pause/resume tested; 390px iframe used for narrow layout and mobile menu checks. A physical phone review is still recommended.

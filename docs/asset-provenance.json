@@ -214,5 +214,11 @@
     "source": "herd-portrait.webp",
     "kind": "AI-assisted background extraction",
     "credit": "Original photographer credit to confirm; foreground extraction for website hero"
+  },
+  {
+    "file": "studio-banner-texture.png",
+    "source": "User-selected image-edit-target-4abf6568c975283a.png banner screenshot",
+    "kind": "AI-edited decorative charcoal texture; live text supplied in HTML",
+    "credit": "Created for ROHENI portfolio"
   }
 ]
